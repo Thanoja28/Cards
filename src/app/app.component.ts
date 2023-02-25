@@ -18,14 +18,14 @@ export class AppComponent {
       title: 'Pink Cherry',
       imageUrl: '../assets/pink-cherry-blossoms.jpeg',
       username: 'Beautiful',
-      content: 'Cherries have a lot of antioxidants and anti-inflammatory compounds. They might boost your heart health. They could help you sleep. Cherries can boost your exercise performance (and recovery).'
+      content: 'Cherries have a lot of antioxidants and anti-inflammatory compounds. They might boost your heart health. They could help you sleep.'
     },
 
     {
       title: 'Rose',
       imageUrl: '../assets/rose.jpeg',
       username: 'Georgeous',
-      content: 'Rose petals contain polyphenols, antioxidants that work to protect your body from cell damage. The polyphenols in rose tea have been shown to reduce the risk of heart disease, diabetes, obesity, and cognitive diseases.'
+      content: 'Rose petals contain polyphenols, antioxidants that work to protect your body from cell damage. The polyphenols in rose tea have been shown.'
     }
   ];
 }
