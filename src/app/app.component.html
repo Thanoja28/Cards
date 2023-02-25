@@ -1,15 +1,24 @@
-<div class="card">
-  <div class="card-image">
-    <figure class="image is-4by3">
-      <img src="../assets/marguerite.jpeg" />
-    </figure>
-  </div>
+<app-card
+  [title]="posts[0].title"
+  [imageUrl]="posts[0].imageUrl"
+  [content]="posts[0].content"
+  [username]="posts[0].username"
+>
+</app-card>
 
-  <div class="card-content">
-    <div class="media-content">
-      <p class="title is-4">Marguerite</p>
-      <p class="subtitle is-6"><i>Elegant</i></p>
-    </div>
-    <div class="content">Prune marguerite daisies by deadheading spent flowers and cutting away dead foliage to promote new growth and increase the bushiness of the shrubs.</div>
-  </div>
-</div>
+<app-card
+  [title]="posts[1].title"
+  [imageUrl]="posts[1].imageUrl"
+  [content]="posts[1].content"
+  [username]="posts[1].username"
+>
+</app-card>
+
+<app-card
+  [title]="posts[2].title"
+  [imageUrl]="posts[2].imageUrl"
+  [content]="posts[2].content"
+  [username]="posts[2].username"
+>
+</app-card>
+
